@@ -11,30 +11,28 @@
 
     <body>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-dark text-white navbar-dark sticky-top">
-            <div class="container">
-                <a href="#" class="navbar-brand">PKN</a>
+        <nav class="navbar navbar-expand-lg bg-dark text-white navbar-dark sticky-top p-3">
+            <a href="#" class="navbar-brand">PKN</a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <div class="collapse navbar-collapse" id="navmenu">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a href="#section1" class="nav-link">Section 1</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#section2" class="nav-link">Section 2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#section3" class="nav-link">Section 3</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#section4" class="nav-link">Section 4</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#section1" class="nav-link">Section 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section2" class="nav-link">Section 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section3" class="nav-link">Section 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section4" class="nav-link">Section 4</a>
+                    </li>
+                </ul>
             </div>
         </nav>
 
@@ -71,16 +69,21 @@
         <!-- Section 2 -->
         <section id="section2" class="p-5">
             <div class="container">
-                <div class="card">
+                <div class="card bg-light">
                     <div class="card-body">
+                        <h2>Heading</h2>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit enim, vero debitis quod voluptas dicta!
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis animi explicabo doloribus!
+                            Delectus hic commodi quo, eligendi corporis culpa facere quod minus alias ex quae, animi
+                            voluptates nisi iusto nam earum. Sint nemo culpa veritatis cumque ex unde error mollitia ad
+                            ipsa, ea fugiat corporis. Perferendis aperiam laboriosam accusamus accusantium.
                         </p>
                         <a href="#" class="btn btn-primary">Read More</a>
                     </div>
                 </div>
             </div>
         </section>
+        <hr>
 
         <!-- Section 3 -->
         <section id="section3" class="p-5">
@@ -154,24 +157,26 @@
         <!-- Section 4 -->
         <section id="section4" class="p-5">
             <div class="container">
+                <h2 class="text-center">Heading</h2>
                 <form>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1=" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput">
+                        <input type="text" class="form-control" id="exampleFormControlInput" placeholder="Text input">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Email</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
+                            placeholder="Email input">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Textarea"></textarea>
                     </div>
                     <div class="mb-3">
                         <label for="select" class="form-label">Subject</label>
                         <select id="select" class="form-select" aria-label="Default select example">
-                            <option selected>Open this select menu</option>
+                            <option selected>Select Dropdown</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>
@@ -205,7 +210,7 @@
                     <ul class="pagination justify-content-center">
                         <li class="page-item"><a class="page-link" href="#">Previous</a></li>
                         <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">2</a></li>
                         <li class="page-item"><a class="page-link" href="#">3</a></li>
                         <li class="page-item"><a class="page-link" href="#">Next</a></li>
                     </ul>
@@ -215,10 +220,8 @@
 
         <!-- Footer -->
         <footer class="p-5 bg-dark text-white text-center">
-            <div class="container">
-                <h2>Made with &#10084;&#65039; by Praveen</h2>
-                <p class="lead">Copyright &copy; 2022 PKN</p>
-            </div>
+            <h2>Made with &#10084;&#65039; by Praveen</h2>
+            <p class="lead">Copyright &copy; 2022 PKN</p>
         </footer>
 
         <script src="static/js/bootstrap.bundle.min.js"></script>
